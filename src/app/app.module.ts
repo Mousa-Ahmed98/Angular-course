@@ -8,6 +8,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { IndexComponent } from './components/index/index.component';
 import { ContentComponent } from './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 @NgModule({//We can write @ because of experimentalDecorators in testconfig.json
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NavBarComponent,
     IndexComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    ToDoListComponent
   ],
   imports: [
     BrowserModule,
